@@ -4,11 +4,11 @@ import tweepy
 import time
 from random import *
 
-consumer_key = 'YjKgsOENgv5w86q8PQXFIO53R'
-consumer_secret = 'FzqMGWoCRdcdwXBZsyPpLla19ksdkoBjsQExjRgxKPELoqsbUm'
+consumer_key = 'HD1BpuZcAPNp1HpTRsPIXwMLX'
+consumer_secret = 'pb4ipWMNVSsSftrNkBRunxzX8zfCzpuTz6KtVCmgxU9oeaSvtF'
 
-key = '1278128329611259909-6ncZKyeaFG23wdK9e5lRPvKT42nsF7'
-secret = '8t1mm7HlAWOEG7fghrBohN4AHuNwwbLlOs4mAeG1VYTzj'
+key = '1278128329611259909-orfpHHTCgzktnbob890PEBc1gr0tss'
+secret = 'BucLsEBB5SneLvZOO2qdDlyJKPoE2my8AJfNFePpV8VZp'
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(key, secret)
