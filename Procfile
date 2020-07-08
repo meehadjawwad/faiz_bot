@@ -1,2 +1,2 @@
-web: python3 bot.py
-web: python3 tweet.py
+web: python bot.py
+web: python tweet.py
