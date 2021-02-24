@@ -37,8 +37,8 @@ OS: macOS Big Sur (version 11.2)
 ```
 
 # File Descriptions
-[`README.md`](https://github.com/meehadjawwad/faiz_bot/blob/master/README.md) - contains the documentation
-[`tweet.py`](https://github.com/meehadjawwad/faiz_bot/blob/master/tweet.py) - contains the code
+* [`README.md`](https://github.com/meehadjawwad/faiz_bot/blob/master/README.md) - contains the documentation
+* [`tweet.py`](https://github.com/meehadjawwad/faiz_bot/blob/master/tweet.py) - contains the code
 
 # Breakdown of Aim
 
