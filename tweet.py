@@ -3,19 +3,19 @@
 # importing the libraries
 # the keys_for_faiz_bot and lyrics libraries are .py files
 
-import keys_for_faiz_bot
-import lyrics
+import os
+from os import environ
 import tweepy
 import time
 from random import *
 
 # setting up the authentication framework
 
-consumer_key = keys_for_faiz_bot.consumer_key
-consumer_secret = keys_for_faiz_bot.consumer_secret
+consumer_key = environ['consumer_key']
+consumer_secret = environ['consumer_secret']
 
-key = keys_for_faiz_bot.key
-secret = keys_for_faiz_bot.secret
+key = environ['key']
+secret = environ['secret']
 
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(key, secret)
