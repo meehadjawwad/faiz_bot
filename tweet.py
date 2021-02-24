@@ -47,13 +47,10 @@ def store_last_seen(FILE_NAME, last_seen_id):
 # defining the main reply function
 
 def reply():
-    reply_lyric1 = " - "
-    reply_lyric2 = lyrics[randint(0, len(lyrics)-1)]
-    my_reply = reply_lyric1 + reply_lyric2
     tweets = api.mentions_timeline(read_last_seen(FILE_NAME), tweet_mode = 'extended')
     for tweet in reversed(tweets):
         print(str(tweet.id), '-', tweet.full_text)
-        api.update_status("@" + tweet.user.screen_name + ' - ' + my_reply, tweet.id)
+        api.update_status("@" + tweet.user.screen_name + ' - ' + lyrics[randint(0, len(lyrics))], tweet.id)
         store_last_seen(FILE_NAME, tweet.id)
 
 # defining the main tweet function
