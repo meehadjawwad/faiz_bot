@@ -31,12 +31,15 @@ OS: macOS Big Sur (version 11.2)
 1. **Automatically tweets a verse after regular intervals:**
     1. Access an online poetry resource
     2. Scrape verses of poetry and store them in a list
-    3. Conduct appropriate formatting
+    3. Format the list
     4. Write main code
+    
 2. **Automatically likes and replies with a verse to every tweet that mentions the bot:**
-    1. Extract the Tweet_ID of the most recent tweet that mentions the bot
-    2. Save the Tweet_ID in a separate text file
-    3. 
+    1. Extract the tweet_id of the most recent tweet that mentions the bot
+    2. Save the tweet_id in a separate text file
+    3. Access that tweet_id in order to filter new mentions
+    4. Like and reply to the new mentions
+    5. Save the most recent tweet_id to the same file
 
 ## Aim 1 - Tweets
 
@@ -48,7 +51,7 @@ I decided I wanted to store and access poetry  through a list; and I came upon t
 - The order is not important.
 - It would be easier to delete and add elements.
 
-###Web scraping
+### Web scraping
 
 I used ```selenium webdriver``` to automate this process.
 
@@ -60,24 +63,29 @@ The third step was to access each link and save the verses in a new list. This w
 
 In the end, I had a list that contained all the verses from all the links in the original parent page. Every element of the list was a couplet (with some exceptions, of course).
 
-###Formatting the list
+### Formatting the list
 
 Some basic formatting was performed on the list such as removing duplicates and blank entries, and replacing `,` with `\`
 
-###Tweeting
+### Tweeting
 
 Using the ```update_status``` method in ```tweepy```, I used a while loop to publish a tweet every 4 hours. The content of the tweet was simply an element from the poetry list, chosen at random.
 
 ## Aim 2 - Likes and Replies
 
-###Organising Mentions
+### Organising Mentions
 
 The first step was to access and store all the tweets that need to be liked and replied to (all the tweets that mention the bot).
 
-The `mentions_timeline` method in `tweepy` is useful because it allows you tu specify the 'since_id' in regards to the tweets you want returned.
+The `mentions_timeline` method in `tweepy` is useful because it allows you tu specify the `since_id` in regards to the tweets you want returned.
 
 I made a new text file in order to access and store all the tweets that are returned, and two functions to read and write to the file.
-The first function stores the tweet_id of every mention that the bot receives to the file, and the second function reads the tweet_id from the file.
+The first function stores the `tweet_id` of every mention that the bot receives to the file, and the second function reads the `tweet_id` from the file.
 
-###Liking and Replying
+### Liking and Replying
 
+The main function has the following steps:
+
+1. Access the last saved `tweet_id` and filter new mentions using that as `since_id`
+2. Use the `update_status` method to post a new tweet that includes: the username of the tweet (in mentions) and a random element from the poetry list.
+3. Store the `tweet_id` of this mention in the text file, so it can be used as the starting point of the next filter.
