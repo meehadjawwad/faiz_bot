@@ -64,7 +64,14 @@ def send_tweet():
 # defining the main function by combining the two main functions
 
 while True:
-    send_tweet()
-    for i in range(0, 960):
-        reply()
-        time.sleep(15)
+    try:
+        send_tweet()
+        for i in range(0, 960):
+            reply()
+            time.sleep(30)
+    except tweepy.TweepError as e:
+        # sometimes twitter is over capacity so sleep then continue
+        if e.reason == "[{u'message': u'Over capacity', u'code': 130}]":
+            time.sleep(30)
+            continue
+            
