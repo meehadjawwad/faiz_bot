@@ -59,7 +59,7 @@ OS: macOS Big Sur (version 11.2)
 
 ### Getting Poetry
 
-I decided I wanted to store and access poetry  through a list; and I came upon this decision due to the following reasons:
+I decided I wanted to store and access poetry through a list; and I came upon this decision due to the following reasons:
 
 - It woud be easy to format the elements.
 - The order is not important.
