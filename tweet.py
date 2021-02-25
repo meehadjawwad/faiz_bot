@@ -315,8 +315,10 @@ def store_last_seen(FILE_NAME, last_seen_id):
 def reply():
     tweets = api.mentions_timeline(read_last_seen(FILE_NAME), tweet_mode='extended')
     for tweet in reversed(tweets):
+        random_verse = ' - ' + lyrics[randint(0, len(lyrics))]
+        mention_plus_username = '@' + tweet.user.screen_name
         print(str(tweet.id), '-', tweet.full_text)
-        api.update_status("@" + tweet.user.screen_name + ' - ' + lyrics[randint(0, len(lyrics))], tweet.id)
+        api.update_status(mention_plus_username + random_verse, tweet.id)
         store_last_seen(FILE_NAME, tweet.id)
 
 
