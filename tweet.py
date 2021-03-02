@@ -337,46 +337,33 @@ lyrics = ['yuuñ bahār aaī hai is baar ki jaise qāsid \ kūcha-e-yār se be-n
 
 # defining a function to read the most recent tweet_id
 
-def read_last_seen(FILE_NAME):
-    file_read = open(FILE_NAME, 'r')
-    last_seen_id = int(file_read.read().strip())
-    file_read.close()
-    return last_seen_id
-
-
-# defining a function to write the most recent tweet_id
-
-def store_last_seen(FILE_NAME, last_seen_id):
-    file_write = open(FILE_NAME, 'w')
-    file_write.write(str(last_seen_id))
-    file_write.close()
-    return
-
-
-# defining the main reply function
-
-last_tweet_id = str(1365434870772748290)
-
-
-def reply():
-    tweets = api.mentions_timeline(read_last_seen(FILE_NAME), tweet_mode='extended')
-    for tweet in reversed(tweets):
-        random_verse = ' - ' + lyrics[randint(0, len(lyrics))]
-        mention_plus_username = '@' + tweet.user.screen_name
-        print(str(tweet.id), '-', tweet.full_text)
-        api.update_status(mention_plus_username + random_verse, tweet.id)
-        store_last_seen(FILE_NAME, tweet.id)
-
-
-def reply():
-    tweets = api.mentions_timeline(since_id=last_tweet_id, tweet_mode='extended')
-    for tweet in reversed(tweets):
-        random_verse = ' - ' + lyrics[randint(0, len(lyrics))]
-        mention_plus_username = '@' + tweet.user.screen_name
-        api.update_status(mention_plus_username + random_verse, tweet.id)
-        last_tweet_id = str(tweet.id)
-
-
+# def read_last_seen(FILE_NAME):
+#     file_read = open(FILE_NAME, 'r')
+#     last_seen_id = int(file_read.read().strip())
+#     file_read.close()
+#     return last_seen_id
+#
+#
+# # defining a function to write the most recent tweet_id
+#
+# def store_last_seen(FILE_NAME, last_seen_id):
+#     file_write = open(FILE_NAME, 'w')
+#     file_write.write(str(last_seen_id))
+#     file_write.close()
+#     return
+#
+#
+# # defining the main reply function
+#
+#
+# def reply():
+#     tweets = api.mentions_timeline(read_last_seen(FILE_NAME), tweet_mode='extended')
+#     for tweet in reversed(tweets):
+#         random_verse = ' - ' + lyrics[randint(0, len(lyrics))]
+#         mention_plus_username = '@' + tweet.user.screen_name
+#         print(str(tweet.id), '-', tweet.full_text)
+#         api.update_status(mention_plus_username + random_verse, tweet.id)
+#         store_last_seen(FILE_NAME, tweet.id)
 
 # defining the main tweet function
 
