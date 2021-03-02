@@ -34,11 +34,9 @@ lyrics = ['yuuñ bahār aaī hai is baar ki jaise qāsid \ kūcha-e-yār se be-n
           'dekh aaeñ chalo kū-e-nigārāñ kā ḳharāba \ shāyad koī mahram mile vīrānī-e-dil kā ',
           'tum aa rahe ho ki bajtī haiñ merī zanjīreñ \ na jaane kyā mire dīvār-o-bām kahte haiñ ',
           'rāz-e-ulfat chhupā ke dekh liyā \ dil bahut kuchh jalā ke dekh liyā ',
-          'pur karo jaam ki shāyad ho isī lahza ravāñ ',
           'hadīs-e-yār ke unvāñ nikharne lagte haiñ \ to har harīm meñ gesū sañvarne lagte haiñ ',
           'havas-e-mutrib-o-sāqī meñ pareshāñ akasr \ abr aatā hai kabhī māh-e-tamām aatā hai ',
           'shauq vāloñ kī hazīñ mahfil-e-shab meñ ab bhī \ āmad-e-subh kī sūrat tirā naam aatā hai ',
-          "'faiz' jab chāhā jo kuchh chāhā sadā maañg liyā ",
           'hasrat-e-dīd meñ guzarāñ haiñ zamāne kab se \ dasht-e-ummīd meñ gardāñ haiñ divāne kab se ',
           'phir nazar meñ phuul mahke dil meñ phir shameñ jalīñ \ phir tasavvur ne liyā us bazm meñ jaane kā naam ',
           'sharh-e-firāq madh-e-lab-e-mushkbū kareñ \ ġhurbat-kade meñ kis se tirī guftugū kareñ ',
@@ -68,21 +66,17 @@ lyrics = ['yuuñ bahār aaī hai is baar ki jaise qāsid \ kūcha-e-yār se be-n
           'tujhe pukārā hai be-irāda \ jo dil dukhā hai bahut ziyāda ',
           'ashk to kuchh bhī rañg lā na sake \ ḳhuuñ se tar aaj āstīñ kī hai ',
           'thī magar itnī rāegāñ bhī na thī \ aaj kuchh zindagī se kho baiThe ',
-          'sāġhar to khanakte haiñ sharāb aae na aae ',
           'vo nazar baham na pahuñchī ki muhīt-e-husn karte \ tirī diid ke vasīle ḳhad-o-ḳhāl tak na pahuñche ',
           'vo ahd-e-ġham kī kāhish-hā-e-be-hāsil ko kyā samjhe \ jo un kī muḳhtasar rūdād bhī sabr-āzmā samjhe ',
           'mire chāra-gar ko naved ho saf-e-dushmanāñ ko ḳhabar karo \ jo vo qarz rakhte the jaan par vo hisāb aaj chukā diyā ',
-          'jab vo laal-o-gohar hisāb kiye ',
           'āshob-e-nazar se kī ham ne chaman-ārāī \ jo shai bhī nazar aaī gul-rañg nazar aaī ',
           'pūchho to udhar tīr-fagan kaun hai yaaro \ sauñpā thā jise kaam nigahbānī-e-dil kā ',
           'jamegī kaise bisāt-e-yārāñ ki shīsha o jaam bujh gae haiñ \ sajegī kaise shab-e-nigārāñ ki dil sar-e-shām bujh gae haiñ ',
-          'yā yūñhī bujh rahī haiñ shameñ ',
           'kab yaad meñ terā saath nahīñ kab haat meñ terā haat nahīñ \ sad-shukr ki apnī rātoñ meñ ab hijr kī koī raat nahīñ ',
           'kabhī to subh tire kunj-e-lab se ho āġhāz \ kabhī to shab sar-e-kākul se mushk-bār chale ',
           'der se aañkh pe utrā nahīñ ashkoñ kā azaab \ apne zimme hai tirā qarz na jaane kab se ',
           'sozish-e-dard-e-dil kise maalūm \ kaun jaane kisī ke ishq kā raaz ',
           "nahīñ ḳhauf-e-roz-e-siyah hameñ ki hai 'faiz' zarf-e-nigāh meñ ",
-          'us tan kī taraf dekho jo qatl-gah-e-dil hai ',
           'qarīb aa ai mah-e-shab-e-ġham nazar pe khultā nahīñ kuchh is dam \ ki dil pe kis kis kā naqsh baaqī hai kaun se naam bujh gae haiñ ',
           'dāman-e-dard ko gulzār banā rakkhā hai ',
           'chashm-e-maigūñ zarā idhar kar de \ dast-e-qudrat ko be-asar kar de ',
@@ -96,7 +90,7 @@ lyrics = ['yuuñ bahār aaī hai is baar ki jaise qāsid \ kūcha-e-yār se be-n
           'the shab-e-hijr kaam aur bahut \ ham ne fikr-e-dil-e-tabāh na kī ',
           'ab junūñ had se baḌh chalā hai \ ab tabīat bahal chalī hai ',
           'na tan meñ ḳhuun farāham na ashk āñkhoñ meñ \ namāz-e-shauq to vājib hai be-vazū hī sahī ',
-          'jaane kis rañg meñ tafsīr kareñ ahl-e-havas ', 'dekho to kidhar aaj ruḳh-e-bād-e-sabā hai ',
+
           'jaise ham-bazm haiñ phir yār-e-tarah-dār se ham \ raat milte rahe apne dar-o-dīvār se ham ',
 
           'sarḳhushī meñ yūñhī dil-shād o ġhazal-ḳhvāñ guzre \ kū-e-qātil se kabhī kūcha-e-dildār se ham ',
@@ -127,11 +121,10 @@ lyrics = ['yuuñ bahār aaī hai is baar ki jaise qāsid \ kūcha-e-yār se be-n
           'ik pal meñ ik sadī kā mazā ham se pūchhiye \ do din kī zindagī kā mazā ham se pūchhiye ',
           'kabhī manzil kabhī raste ne hameñ saath diyā \ har qadam uljhe rahe qāfila-sālār se ham ',
           'ye jafā-e-ġham kā chāra vo najāt-e-dil kā aalam \ tirā husn dast-e-īsā tirī yaad rū-e-maryam ',
-          "bād-e-ḳhizāñ kā shukr karo 'faiz' jis ke haath ",
           'yaad kā phir koī darvāza khulā āḳhir-e-shab \ dil meñ bikhrī koī ḳhushbu-e-qabā āḳhir-e-shab ',
           'apne har har lafz kā ḳhud āīna ho jāūñgā \ us ko chhoTā kah ke maiñ kaise baḌā ho jāūñgā ',
           'guloñ meñ rañg bhare bād-e-nau-bahār chale \ chale bhī aao ki gulshan kā kārobār chale ',
-          'aaj kī shab visāl kī shab hai ', 'tere kūche meñ bādshāhī kī \ jab se nikle gadāgarī kī hai ',
+          'tere kūche meñ bādshāhī kī \ jab se nikle gadāgarī kī hai ',
           'lo vasl kī saaat aa pahuñchī phir hukm-e-huzūrī par ham ne \ āñkhoñ ke darīche band kiye aur siine kā dar baaz kiyā ',
           "'faiz' takmīl-e-ġham bhī ho na sakī ",
           'mai-ḳhāne meñ aajiz hue āzurda-dilī se \ masjid kā na rakkhā hameñ āshufta-sarī ne ',
@@ -149,9 +142,7 @@ lyrics = ['yuuñ bahār aaī hai is baar ki jaise qāsid \ kūcha-e-yār se be-n
           'tujh ko dekhā to ser-chashm hue \ tujh ko chāhā to aur chaah na kī ',
           'saarī duniyā se duur ho jaae \ jo zarā tere paas ho baiThe ',
           'zikr-e-dozaḳh bayān-e-hūr o qusūr \ baat goyā yahīñ kahīñ kī hai ',
-          'baḌā hai dard kā rishta ye dil ġharīb sahī ',
           'phir aag bhaḌakne lagī har sāz-e-tarab meñ \ phir shoale lapakne lage har dīda-e-tar se ',
-          'hamdam hadīs-e-kū-e-malāmat sunāiyo ',
           'sabā ne phir dar-e-zindāñ pe aa ke dī dastak \ sahar qarīb hai dil se kaho na ghabrāe ',
           'bahut sambhālā vafā kā paimāñ magar vo barsī hai ab ke barkhā \ har ek iqrār miT gayā hai tamām paiġhām bujh gae haiñ ',
           'karte haiñ jis pe taan koī jurm to nahīñ \ shauq-e-fuzūl o ulfat-e-nākām hī to hai ',
@@ -163,14 +154,11 @@ lyrics = ['yuuñ bahār aaī hai is baar ki jaise qāsid \ kūcha-e-yār se be-n
           'ab bhī elān-e-sahar kartā huā mast koī \ dāġh-e-dil kar ke farozāñ sar-e-shām aatā hai ',
           'saf-e-zāhidāñ hai to be-yaqīñ saf-e-mai-kashāñ hai to be-talab \ na vo subh vird-o-vazū kī hai na vo shaam jām-o-subū kī hai ',
           'har haqīqat majāz ho jaae \ kāfiroñ kī namāz ho jaae ',
-          'vo jab bhī karte haiñ is nutq o lab kī baḳhiya-garī ', 'bas vahī surḳh-rū huā jis ne ',
-          'dayār-e-ġhair meñ mahram agar nahīñ koī ',
           'aaj un kī nazar meñ kuchh ham ne \ sab kī nazreñ bachā ke dekh liyā ',
           'koī pukāro ki ik umr hone aaī hai \ falak ko qāfila-e-roz-o-shām Thahrāe ',
           'phir harīf-e-bahār ho baiThe \ jaane kis kis ko aaj ro baiThe ',
           'har ajnabī hameñ mahram dikhāī detā hai \ jo ab bhī terī galī se guzarne lagte haiñ ',
           'tumhārī yaad ke jab zaḳhm bharne lagte haiñ \ kisī bahāne tumheñ yaad karne lagte haiñ ',
-          'ye jāma-e-sad-chāk badal lene meñ kyā thā ',
           'nahīñ nigāh meñ manzil to justujū hī sahī \ nahīñ visāl mayassar to aarzū hī sahī ',
           'gino sab hasrateñ jo ḳhuuñ huī haiñ tan ke maqtal meñ \ mire qātil hisāb-e-ḳhūñ-bahā aise nahīñ hotā ',
           'ab jahāñ mehrbāñ nahīñ koī \ kūcha-e-yār mehrbāñ hai vahī ', 'na gaī terī be-ruḳhī na gaī ',
@@ -197,12 +185,10 @@ lyrics = ['yuuñ bahār aaī hai is baar ki jaise qāsid \ kūcha-e-yār se be-n
           "vahī chashma-e-baqā thā jise sab sarāb samjhe \ vahī ḳhvāb mo'tabar the jo ḳhayāl tak na pahuñche ",
           'rañg pairāhan kā ḳhushbū zulf lahrāne kā naam \ mausam-e-gul hai tumhāre baam par aane kā naam ',
           'the bazm meñ sab dūd-e-sar-e-bazm se shādāñ \ be-kār jalāyā hameñ raushan-nazrī ne ',
-          'luT rahī hai mirī matā-e-niyāz ',
           'ashār mire yuuñ to zamāne ke liye haiñ \ kuchh sher faqat un ko sunāne ke liye haiñ ',
           'tirā lutf vajh-e-taskīñ na qarār sharh-e-ġham se \ ki haiñ dil meñ vo gile bhī jo malāl tak na pahuñche ',
           'garmī-e-shauq-e-nazārā kā asar to dekho \ gul khile jaate haiñ vo sāya-e-tar to dekho ',
           'umr guzregī imtihān meñ kyā \ daaġh hī deñge mujh ko daan meñ kyā ',
-          'ek baar aur masīhā-e-dil-e-dil-zadagāñ ',
           'sar vahī hai to āstāñ hai vahī \ jaañ vahī hai to jān-e-jāñ hai vahī ',
           'mushkil haiñ agar hālāt vahāñ dil bech aaeñ jaañ de aaeñ \ dil vaalo kūcha-e-jānāñ meñ kyā aise bhī hālāt nahīñ ',
           'dilbarī Thahrā zabān-e-ḳhalq khulvāne kā naam \ ab nahīñ lete parī-rū zulf bikhrāne kā naam ',
@@ -222,9 +208,7 @@ lyrics = ['yuuñ bahār aaī hai is baar ki jaise qāsid \ kūcha-e-yār se be-n
           'daulat-e-lab se phir ai ḳhusrav-e-shīrīñ-dahanāñ \ aaj arzāñ ho koī harf shanāsāī kā ',
           'kis tarah paak ho be-ārzū lamhoñ kā hisāb \ dard aayā nahīñ darbār sajāne kab se ',
           'tere dast-e-sitam kā ijz nahīñ \ dil hī kāfir thā jis ne aah na kī ',
-          'faqīh-e-shahr se mai kā javāz kyā pūchheñ ',
           'qafas udaas hai yaaro sabā se kuchh to kaho \ kahīñ to bahr-e-ḳhudā aaj zikr-e-yār chale ',
-          'ab kisī lailā ko bhī iqrār-e-mahbūbī nahīñ ',
           'kaise māneñ haram ke sahl-pasand \ rasm jo āshiqoñ ke diiñ kī hai ',
           'yak jaan na ho sakiye anjān na ban sakiye \ yuuñ TuuT gaī dil meñ shamshīr-e-shanāsāī ',
           'aao kareñ mahfil pe zar-e-zaḳhm numāyāñ \ charchā hai bahut be-sar-o-sāmānī-e-dil kā ',
@@ -234,7 +218,7 @@ lyrics = ['yuuñ bahār aaī hai is baar ki jaise qāsid \ kūcha-e-yār se be-n
           'karo kaj jabīñ pe sar-e-kafan mire qātiloñ ko gumāñ na ho \ ki ġhurūr-e-ishq kā bāñkpan pas-e-marg ham ne bhulā diyā ',
           'kabhī kabhī aarzū ke sahrā meñ aa ke rukte haiñ qāfile se \ vo saarī bāteñ lagāv kī sī vo saare unvāñ visāl ke se ',
           'kiye aarzū se paimāñ jo maaal tak na pahuñche \ shab-o-roz-e-āshnāī mah o saal tak na pahuñche ',
-          'koī yaar jaañ se guzrā koī hosh se na guzrā ',
+
           'sau paikāñ the paivast-e-gulū jab chheḌī shauq kī lai ham ne \ so tiir tarāzū the dil meñ jab ham ne raqs āġhāz kiyā ',
           'subh-e-gul ho ki shām-e-mai-ḳhāna \ madh us rū-e-nāznīñ kī hai ',
           'zahr se dho liye haiñ hoñT apne \ lutf-e-sāqī ne jab kamī kī hai ',
@@ -243,22 +227,14 @@ lyrics = ['yuuñ bahār aaī hai is baar ki jaise qāsid \ kūcha-e-yār se be-n
           'piyo ki muft lagā dī hai ḳhūn-e-dil kī kashīd \ girāñ hai ab ke mai-e-lāla-fām kahte haiñ ',
           'aae kuchh abr kuchh sharāb aae \ is ke baad aae jo azaab aae ',
           'mujh se pahlī sī mohabbat mirī mahbūb na maañg',
-          'maiñ ne samjhā thā ki tū hai to daraḳhshāñ hai hayāt',
-          'terā ġham hai to ġham-e-dahr kā jhagḌā kyā hai',
-          'terī sūrat se hai aalam meñ bahāroñ ko sabāt',
-          'terī āñkhoñ ke sivā duniyā meñ rakkhā kyā hai',
-          'tū jo mil jaa.e to taqdīr nigūñ ho jaa.e',
-          'yuuñ na thā maiñ ne faqat chāhā thā yuuñ ho jaa.e',
-          'aur bhī dukh haiñ zamāne meñ mohabbat ke sivā',
-          'rāhateñ aur bhī haiñ vasl kī rāhat ke sivā',
-          'an-ginat sadiyoñ ke tārīk bahīmāna tilism',
-          'resham o atlas o kamḳhāb meñ bunvā.e hue',
-          'jā-ba-jā bikte hue kūcha-o-bāzār meñ jism',
-          'ḳhaak meñ luThḌe hue ḳhuun meñ nahlā.e hue',
-          'jism nikle hue amrāz ke tannūroñ se',
-          'piip bahtī huī galte hue nāsūroñ se',
-          'lauT jaatī hai udhar ko bhī nazar kyā kiije',
-          'ab bhī dilkash hai tirā husn magar kyā kiije',
+          'maiñ ne samjhā thā ki tū hai to daraḳhshāñ hai hayāt \ terā ġham hai to ġham-e-dahr kā jhagḌā kyā hai',
+          'terī sūrat se hai aalam meñ bahāroñ ko sabāt \ terī āñkhoñ ke sivā duniyā meñ rakkhā kyā hai',
+          'tū jo mil jaa.e to taqdīr nigūñ ho jaa.e \ yuuñ na thā maiñ ne faqat chāhā thā yuuñ ho jaa.e',
+          'aur bhī dukh haiñ zamāne meñ mohabbat ke sivā \ rāhateñ aur bhī haiñ vasl kī rāhat ke sivā',
+          'an-ginat sadiyoñ ke tārīk bahīmāna tilism \ resham o atlas o kamḳhāb meñ bunvā.e hue',
+          'jā-ba-jā bikte hue kūcha-o-bāzār meñ jism \ ḳhaak meñ luThḌe hue ḳhuun meñ nahlā.e hue',
+          'jism nikle hue amrāz ke tannūroñ se \ piip bahtī huī galte hue nāsūroñ se',
+          'lauT jaatī hai udhar ko bhī nazar kyā kiije \ ab bhī dilkash hai tirā husn magar kyā kiije',
           'bol ki lab āzād haiñ tere \ bol zabāñ ab tak terī hai',
           'terā sutvāñ jism hai terā \ bol ki jaañ ab tak terī hai',
           'dekh ki āhan-gar kī dukāñ meñ \ tund haiñ sho.ale surḳh hai aahan',
@@ -379,6 +355,9 @@ def store_last_seen(FILE_NAME, last_seen_id):
 
 # defining the main reply function
 
+last_tweet_id = str(1365434870772748290)
+
+
 def reply():
     tweets = api.mentions_timeline(read_last_seen(FILE_NAME), tweet_mode='extended')
     for tweet in reversed(tweets):
@@ -387,6 +366,16 @@ def reply():
         print(str(tweet.id), '-', tweet.full_text)
         api.update_status(mention_plus_username + random_verse, tweet.id)
         store_last_seen(FILE_NAME, tweet.id)
+
+
+def reply():
+    tweets = api.mentions_timeline(since_id=last_tweet_id, tweet_mode='extended')
+    for tweet in reversed(tweets):
+        random_verse = ' - ' + lyrics[randint(0, len(lyrics))]
+        mention_plus_username = '@' + tweet.user.screen_name
+        api.update_status(mention_plus_username + random_verse, tweet.id)
+        last_tweet_id = str(tweet.id)
+
 
 
 # defining the main tweet function
@@ -399,9 +388,10 @@ def send_tweet():
 
 def main_code():
     send_tweet()
-    for i in range(480):
-        reply()
-        time.sleep(30)
+    time.sleep(60*60*4)
+    #for i in range(480):
+        #reply()
+        #time.sleep(30)
 
 
 while True:
